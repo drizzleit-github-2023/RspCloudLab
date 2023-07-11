@@ -159,7 +159,7 @@
         <type>Text</type>
     </nameField>
     <pluralLabel>Projects</pluralLabel>
-    <searchLayouts/>
+    <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
@@ -173,11 +173,22 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
-<fields>
+    <fields>
         <fullName>Test_Field_Three__c</fullName>
         <caseSensitive>false</caseSensitive>
         <externalId>true</externalId>
         <label>Test Field Three</label>
+        <length>18</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>Test_Field_Four__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>Test Field Four</label>
         <length>18</length>
         <required>false</required>
         <trackTrending>false</trackTrending>
