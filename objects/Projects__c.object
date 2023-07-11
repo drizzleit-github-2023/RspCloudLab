@@ -196,6 +196,7 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+
     <fields>
         <fullName>inbox_project__c</fullName>
         <defaultValue>false</defaultValue>
