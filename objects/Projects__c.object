@@ -184,6 +184,7 @@
         <type>Text</type>
         <unique>true</unique>
     </fields>
+
     <fields>
         <fullName>Test_Field_Four__c</fullName>
         <caseSensitive>false</caseSensitive>
