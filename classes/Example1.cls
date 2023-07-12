@@ -1,0 +1,12 @@
+public class Example1 
+{
+    public String name{get;set;} 
+    public Contact contactRecord{get;set;}
+    
+    public void show()
+    {
+        contactRecord = [SELECT Id, Name, Email, Phone FROM Contact WHERE Id = '0032w00001AVFXwAAP'];
+        name='This is my name'+name;
+        //return null;
+    }
+}
